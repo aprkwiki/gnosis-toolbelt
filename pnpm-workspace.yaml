@@ -1,0 +1,24 @@
+{
+  "name": "@gnosis-toolbelt/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "21.4.1",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "jest": "^30.0.5",
+    "nx": "21.4.1",
+    "prettier": "^2.8.8",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
